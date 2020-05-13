@@ -4,7 +4,7 @@
 
 ```
 DATA :
-      lo_bal_log          TYPE REF TO zcl_bal_log,
+      lo_bal_log          TYPE REF TO zcl_bal_log.
       
     CONSTANTS :
       lc_object       TYPE balobj_d  VALUE 'ILO15',
