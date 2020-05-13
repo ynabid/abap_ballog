@@ -4,7 +4,8 @@
 
 ```
 DATA :
-      lo_bal_log          TYPE REF TO zcl_bal_log.
+      lo_bal_log          TYPE REF TO zcl_bal_log,
+      lv_dummy            type string.
       
     CONSTANTS :
       lc_object       TYPE balobj_d  VALUE 'ILO15',
@@ -17,6 +18,7 @@ DATA :
         subobject = lc_subobject
         extnumber = lc_extnumber.
 
+     MESSAGE e011(zsd) INTO lv_dummy.
      lo_bal_log->add_msg(
               EXPORTING
                 msgty = sy-msgty        " Type de message
