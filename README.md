@@ -8,8 +8,8 @@ DATA :
       lv_dummy            type string.
       
     CONSTANTS :
-      lc_object       TYPE balobj_d  VALUE 'ILO15',
-      lc_subobject    TYPE balsubobj VALUE 'VERIFICATION_RES_IN',
+      lc_object       TYPE balobj_d  VALUE 'XXXX',
+      lc_subobject    TYPE balsubobj VALUE 'XXXXXXXXXXXXXXXXX',
       lc_extnumber    TYPE balnrext VALUE 'XXXXX'.
       
     CREATE OBJECT lo_bal_log
